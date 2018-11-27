@@ -1,68 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <head>
 
-<meta charset="UTF-8">
-<title>Bare - Start Bootstrap Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-<!-- All the bootstrap stuff -->
+    <title>Clean Blog - Start Bootstrap Theme</title>
 
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-</head>
+    <!-- Custom fonts for this template -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css">
+      
+    <link rel="icon" href="img/Favicon.jpg" type="image/gif" sizes="16x16">
+      
+      
+    <!-- Custom styles for this template -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
 
-<body>
+  </head>
+
+  <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="#">HOME</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="index.html">Brandon Lau</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">
-                <span class="sr-only">(current)</span>
-              </a>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link" href="post.html">My Journey</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">Gym Programming</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Diet Planning</a>
+            </li>
+            
+    
           </ul>
         </div>
       </div>
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h1 class="mt-5">Alan's Website</h1>
-          <ul class="list-unstyled">
-            <li>Using Bootstrap</li>
-            <li>and nice CS things</li>
-          </ul>
+    <!-- Page Header -->
+    <header class="masthead" style="background-image: url('img/muscle.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h1>RiceShred</h1>
+              <span class="subheading">An Inspiring Fitness Journey</span>
+            </div>
+          </div>
         </div>
       </div>
+    </header>
 
-     <div>
-        <a target="_blank" href="http://google.com">Link to Google</a>
-     </div>
-     <div class="col-lg-4 offset-lg-4 text-center">
-        <p>Centered Paragraph with 4/12 offset <br> With a line break too!</p>
-     </div>
-     <div>
-     	<label>Resume:</label>
-        <a target="_blank" href="resume.pdf">Alan Burstein Resume</a>
-     </div>
-     <div class="col-lg-2 offset-lg-2"><img src="elon.jpg" alt="" /></div>
-
+    <!-- Main Content -->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-preview">
+            <a href="post.html">
+              <h2 class="post-title">
+               A journey from fat to fit
+              </h2>
+              <h3 class="post-subtitle">
+                How one man gained 40 pounds and proceeded to lose it all
+              </h3>
+            </a>
+            <p class="post-meta">Posted by
+              <a href="#">Brandon Lau</a>
+              on September 24, 2018</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="about.html">
+              <h2 class="post-title">
+                Gym programming 101
+              </h2>
+                  <h3 class="post-subtitle">
+                A guide on how to achieve your aesthetic goals
+              </h3>
+            </a>
+            <p class="post-meta">Posted by
+              <a href="#">Brandon Lau</a>
+              on September 18, 2018</p>
+          </div>
+          <hr>
+          <div class="post-preview">
+            <a href="contact.html">
+              <h2 class="post-title">
+                You are what you eat
+              </h2>
+              <h3 class="post-subtitle">
+                Get six-pack abs with one SIMPLE trick. Click here to learn the truth!
+              </h3>
+            </a>
+            <p class="post-meta">Posted by
+              <a href="#">Brandon Lau</a>
+              on August 24, 2018</p>
+          </div>
+         
+          <!-- Pager -->
+          <div class="clearfix">
+            <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
+          </div>
+        </div>
+      </div>
     </div>
 
-</body>
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+   
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/clean-blog.min.js"></script>
+
+  </body>
 
 </html>
